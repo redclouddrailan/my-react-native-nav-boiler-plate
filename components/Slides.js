@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text, ScrollView } from 'react-native';
+import { View, Text, ScrollView, Dimensions } from 'react-native';
+
+const SCREEN_WIDTH = Dimensions.get('window').width;
 
 
 class Slides extends Component {
@@ -30,7 +32,8 @@ const styles = {
   slideStyle: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    width: SCREEN_WIDTH
 
   },
   slideText: {
