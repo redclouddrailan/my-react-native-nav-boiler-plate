@@ -11,8 +11,9 @@ class Slides extends Component {
     if (index === this.props.data.length - 1){
       return (
         <Button
+          buttonStyle={styles.buttonStyle}
           title="Game on!"
-          raised
+          onPress={this.props.onComplete}
         />
       );
     }
@@ -60,6 +61,11 @@ const styles = {
     textAlign: 'center',
     marginRight: 20,
     marginLeft: 20
+  },
+
+  buttonStyle: {
+    backgroundColor: 'orange',
+    marginTop: 15
   }
 };
 
