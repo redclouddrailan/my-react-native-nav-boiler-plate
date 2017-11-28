@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Platform } from 'react-native';
 import { TabNavigator, StackNavigator } from 'react-navigation';
+import { Provider } from 'react-redux';
 
 import MapScreen from './screens/MapScreen';
 import DeckScreen from './screens/DeckScreen';
