@@ -1,8 +1,7 @@
 import { AsyncStorage } from 'react-native';
 import {
-  FACEBOOK_LOGIN_SUCCESS,
-  FACEBOOK_LOGIN_FAIL
-} from '.types';
+  FACEBOOK_LOGIN_SUCCESS, FACEBOOK_LOGIN_FAIL
+} from './types';
 import { Facebook } from 'expo';
 
 //How to use Async Storage:
