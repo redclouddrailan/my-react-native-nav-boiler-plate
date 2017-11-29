@@ -35,8 +35,11 @@ export default class App extends React.Component {
     },
     //Main tab navigator properties
     {
+      navigationOptions: {
+        tabBarVisible: false
+      },
       swipeEnabled: false,
-      lazyLoad: true,
+      lazy: true,
       animationEnabled: false,
       tabBarPosition: 'bottom'
     });
